@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    asciidoctor (1.5.2)
+    asciidoctor (2.0.17)
     coderay (1.1.0)
     ffi (1.9.10)
     formatador (0.2.5)
@@ -42,6 +42,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  asciidoctor
+  asciidoctor (>= 1.5.8)
   guard
   guard-shell
+
+BUNDLED WITH
+   2.1.4
